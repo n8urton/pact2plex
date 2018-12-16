@@ -1,36 +1,28 @@
 import os, re
-files_list = []
-sections_list = {}
-season = []
-title = []
+old_filenames = []
+new_filenames = {}
 
 for i in range(8):
-    files_list.append([])
+    old_filenames.append([])
     for filename in os.listdir("."):
         if filename.startswith("video" + str(i+1)):
-            files_list[i].append(filename)
+            old_filenames[i].append(filename)
 
 with open("section_names") as f:
-    season = []
-    show_title = []
     for line in f:
         if line.startswith("Section"):
-            temp_season, temp_season_title = (line.split(":"))
-            season.append(temp_season_title.strip())
-            #sections_list.update({key : []})
-            #section = key[8]
-            #print(section)        
-            print(len(season))    
-        elif line.startswith(str(len(season))):
-            temp_number, temp_show_title = line.split(" ", 1)
-            print(temp_number + " . . . *" + temp_show_title + "*")
-                          
+            season_title = (line.split(":")[1])
+            season_title = season_title.strip()
+            new_filenames[season_title] = []
+            # print(len(new_filenames))
+        elif line.startswith(str(len(new_filenames))):
+            show_title = line.split(" ", 1)[1]
+            # print(new_filenames[(len(new_filenames)-1)] +
+            #       " . . . *" + show_title + "*")
+            new_filenames[season_title.strip()].append(show_title.strip())
+            
 
-'''
-for item in files_list:
-    print(item)
-
-for key in sections_list:
-    print(key + ". . . " + value)
-
-'''
+for enum, season in enumerate(new_filenames):
+    print("Season " + (str(enum+1)) + ": " + season)
+    for count, episode in enumerate(new_filenames[season]):
+        print(old_filenames[enum][count] + " . . . " + episode)

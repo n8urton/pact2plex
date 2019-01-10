@@ -1,12 +1,11 @@
 import json
 
-show_title = "Mastering Linux Security and Hardening"
 
 with open('test_data.json') as infile:
     data = json.load(infile)
 # print(data)
-print(show_title)
-for season_num, season in enumerate(data, start=1):
+show_title = data["show_title"]
+for season_num, season in enumerate(data["seasons"], start=1):
     title = season["title"]
     print(f"\tSeason {season_num} - {title}")
     for episode_num, episode in (enumerate(season["episode"], start=1)):

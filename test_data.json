@@ -1,4 +1,6 @@
-[
+{
+"show_title" : "Mastering Linux Security and Hardening",
+"seasons": [
     {
         "title" : "Running Linux in a Virtual Environment",
         "episode" : [
@@ -50,3 +52,4 @@
             ]
         }
     ]
+}

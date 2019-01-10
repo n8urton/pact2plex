@@ -1,0 +1,54 @@
+Section 1: Running Linux in a Virtual Environment
+1.1 The Course Overview
+1.2 The Threat Landscape and Keeping Up with Security News
+1.3 Introduction to VirtualBox and Cygwin
+Section 2: Securing User Accounts
+2.1 Setting Up sudo Privileges for Full Administrative Users
+2.2 Setting Up sudo for Users with Only Certain Delegated Privileges
+2.3 Advanced Tips and Tricks for Using sudo
+2.4 Locking Down Users' Home Directories the Red Hat/CentOS and Debian/Ubuntu Way
+2.5 Enforcing Strong Password Criteria
+2.6 Setting and Enforcing Password and Account Expiration
+2.7 Preventing Brute-Force Password Attacks
+2.8 Locking User Accounts
+Section 3: Securing Your Server with a Firewall
+3.1 An Overview of iptables
+3.2 Uncomplicated Firewall for Ubuntu Systems
+3.3 firewalld for Red Hat Systems
+3.4 nftables – A More Universal Type of Firewall System
+Section 4: Encrypting and SSH Hardening
+4.1 GNU Privacy Guard
+4.2 Encrypting Partitions with Linux Unified Key Setup – LUKS
+4.3 Encrypting Directories with eCryptfs
+4.4 Using VeraCrypt for Cross-Platform Sharing of Encrypted Containers
+4.5 Ensuring that SSH Protocol 1 Is Disabled
+4.6 Creating a User’s SSH Key Set
+4.7 Disabling Username/Password Logins
+Section 5: Mastering Discretionary Access Control
+5.1 Changing Ownership of Files and Directories
+5.2 Setting Permissions Values
+5.3 Using SUID and SGID
+5.4 Protecting Sensitive Files
+Section 6: Access Control Lists and Shared Directory Management
+6.1 Creating an Access Control List
+6.2 Creating an Inherited Access Control List
+6.3 Removing a Specific Permission
+6.4 Preventing Loss of ACLs
+6.5 Creating a User Group and Adding Members to It
+6.6 Setting the SGID Bit and the Sticky Bit
+6.7 Accessing Files in the Shared Directory
+Section 7: Implementing Mandatory Access Control with SELinux and AppArmor
+7.1 How SELinux Can Benefit a Systems Administrator?
+7.2 Setting Security Contexts for Files and Directories
+7.3 Troubleshooting with setroubleshoot
+7.4 Working with SELinux Policies
+7.5 Looking at AppArmor Profiles
+7.6 Working with AppArmor Command-Line Utilities
+Section 8: Scanning, Auditing, and Hardening
+8.1 Installing and Updating ClamAV and maldet
+8.2 Scanning with ClamAV and maldet
+8.3 SELinux Considerations
+8.4 Scanning for Rootkits with Rootkit Hunter
+8.5 Controlling the auditd Daemon and Creating Audit Rule
+8.6 Using ausearch and aureport
+8.7 Scanning and Hardening with Lynis

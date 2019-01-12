@@ -1,27 +1,51 @@
 import os
 import re
+import sys
 from docx import Document
 
 docx_in = "masteringlinuxsecurityandhardening.docx"
 text_data_in = "show_data.txt"
+show_data = {}
+
+def open_docx(docx_in):
+    try:
+        document = Document(docx_in)
+        return document
+    except Exception as err:
+        sys.exit(f"Error loaking docx file: {err}" )
+
 
 
 def get_text(document):
     """returns array of string values of each paragraph of text from docx file"""
+    #try: 
     text_lines = []
     for para in document.paragraphs:
         if para.paragraph_format.alignment==1:
             (para.text)
         text_lines.append(para.text)
+    print("Successfully read .docx file")    
     return text_lines
+    #except document.para as e:
+    #    print(e)
 
 
-document = Document(docx_in) #open docx file
+def get_show_title(text_in):
+    show_title = {"show_title":text_in[0]}
+    return show_title
+
+document = open_docx(docx_in) #open docx file
 text_in = get_text(document)
 
 #for item in text_in:
 #    print(str(type(item)) + " . . . " + item)
 print(text_in[0])
+show_data.update(get_show_title(text_in))
+if show_data["show_title"] == text_in[0]:
+    print("correct title")
+else:
+    print("try again")
+
 
 old_filenames = []
 new_filenames = {}

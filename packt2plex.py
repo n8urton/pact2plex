@@ -2,7 +2,7 @@ import os
 import re
 import sys
 from docx import Document
-
+test_show_title = "Mastering Linux Security and Hardening"
 docx_in = "masteringlinuxsecurityandhardening.docx"
 text_data_in = "show_data.txt"
 show_data = {}
@@ -10,38 +10,42 @@ show_data = {}
 def open_docx(docx_in):
     try:
         document = Document(docx_in)
+        print(f". . . Opening {docx_in}")
         return document
     except Exception as err:
-        sys.exit(f"Error loaking docx file: {err}" )
+        sys.exit(f"Error loading docx file: {err}" )
 
 
 
-def get_text(document):
-    """returns array of string values of each paragraph of text from docx file"""
-    #try: 
-    text_lines = []
-    for para in document.paragraphs:
-        if para.paragraph_format.alignment==1:
-            (para.text)
-        text_lines.append(para.text)
-    print("Successfully read .docx file")    
-    return text_lines
-    #except document.para as e:
-    #    print(e)
+def get_show_title(document):
+    '''returns the text from the first center formatted paragraph object in the docx file the key of "show_title"'''
+    for para in document.paragraphs: #iterates through paraghraphs
+        print(para.text)
+        try: 
+            if para.paragraph_format.alignment==1: # 
+                print(para.text)
+                data= {"show_title" : para.text}
+                print("Setting Show Title to: {0}".format(data["show_title"]))
+                return data
+            else:
+                print("No show title found")
+        except TypeError:
+            sys.exit(f"Error reading Show Title from {docx_in}. Show \
+Title should be the first CENTER FORMATTED line in the document")
 
 
-def get_show_title(text_in):
-    show_title = {"show_title":text_in[0]}
-    return show_title
+#def get_season_titles(document):
+
+
 
 document = open_docx(docx_in) #open docx file
-text_in = get_text(document)
+#text_in = get_text(document)
 
 #for item in text_in:
 #    print(str(type(item)) + " . . . " + item)
-print(text_in[0])
-show_data.update(get_show_title(text_in))
-if show_data["show_title"] == text_in[0]:
+#print(f"data is: \n{}")
+show_data.update(get_show_title(document))
+if test_show_title == show_data["show_title"]:
     print("correct title")
 else:
     print("try again")

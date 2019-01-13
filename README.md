@@ -11,3 +11,7 @@ Directory and file naming:
     * Season 2/  
       * ShowTitle - s02e01 - EpisodeTitle.mp4  
       * ShowTitle - s02e02 - EpisodeTitle.mp4  
+
+## Useful links  
+- [An Informal Intro to Docx](https://www.toptal.com/xml/an-informal-introduction-to-docx)  
+- [python-docx documentation](https://python-docx.readthedocs.io/en/latest/index.html)  

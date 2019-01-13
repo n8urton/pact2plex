@@ -1,0 +1,4174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:o="urn:schemas-microsoft-com:office:office" 
+    xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" 
+    xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" 
+    xmlns:v="urn:schemas-microsoft-com:vml" 
+    xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" 
+    xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" 
+    xmlns:w10="urn:schemas-microsoft-com:office:word" 
+    xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" 
+    xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" 
+    xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" 
+    xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" 
+    xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" 
+    xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 wp14">
+    <w:body>
+        <w:p w:rsidR="00D043FC" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:jc w:val="center"/>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00D77133">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>Mastering Linux Security and Hardening</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133"/>
+        <w:p w:rsidR="00D77133" w:rsidRPr="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00D77133">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>Section 1: Running Linux in a Virtual Environment</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:r>
+                <w:t>This section gives an overview of the IT security landscape and will inform the viewer of why learning Linux security would be a good career move. We'll also cover how to set up a lab environment for performing hands-on exercises. Further we will be setting up a virtualized lab environment for performing the hands-on labs.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="1"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>The Course Overview</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="1"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>The Threat Landscape and Keeping Up with Security News</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="1"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Introduction to </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>VirtualBox</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> and Cygwin</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRPr="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00722968">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>1.1 The Course Overview</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:r>
+                <w:t>This video will give you an overview about the course.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRPr="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00722968">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>1.2 The Threat Landscape and Keeping Up with Security News</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:r>
+                <w:t>This video is a brief introduction about the threats faced by IT systems today and an advice that we should always be updated with latest security news.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="9"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Look at types of malware</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="9"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Look at different security news sites</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRPr="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00722968">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve">1.3 Introduction to </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="00722968">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>VirtualBox</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="00722968">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve"> and Cygwin</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:r>
+                <w:t xml:space="preserve">The best way to do labs in this course is to use virtual machines. </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>VirtualBox</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> and Cygwin are two interfaces used for performing the labs. Let’s set them up </w:t>
+            </w:r>
+            <w:proofErr w:type="gramStart"/>
+            <w:r>
+                <w:t>In</w:t>
+            </w:r>
+            <w:proofErr w:type="gramEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> this video,</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="10"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Install a virtual machine in </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>VirtualBox</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="10"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Configure a network for </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>VirtualBox</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> virtual machines</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="10"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Use Cygwin to connect to your virtual machines</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRPr="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00D77133">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>Section 2: Securing User Accounts</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:r>
+                <w:t xml:space="preserve">This section covers the dangers of always using the root user account, and will introduce the benefits of using </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>sudo</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t>, instead. We'll then cover how to lock down normal user accounts and ensure that the users use good-quality passwords.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="2"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Setting Up </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>sudo</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> Privileges for Full Administrative Users</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="2"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Setting Up </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>sudo</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> for Users with Only Certain Delegated Privileges</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="2"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Advanced Tips and Tricks for Using </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>sudo</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="2"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Locking Down Users' Home Directories the Red Hat/</w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>CentOS</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> and </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>Debian</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t>/Ubuntu Way</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="2"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:lastRenderedPageBreak/>
+                <w:t>Enforcing Strong Password Criteria</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="2"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Setting and Enforcing Password and Account Expiration</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="2"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Preventing Brute-Force Password Attacks</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="2"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Locking User Accounts</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRPr="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00722968">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve">2.1 Setting Up </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="00722968">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>sudo</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="00722968">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve"> Privileges for Full Administrative Users</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:r>
+                <w:t xml:space="preserve">Before we look at how to limit what users can do, let's first look at how to allow a user to do everything, including logging into the root command prompt </w:t>
+            </w:r>
+            <w:proofErr w:type="gramStart"/>
+            <w:r>
+                <w:t>In</w:t>
+            </w:r>
+            <w:proofErr w:type="gramEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> this video.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="11"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Add users to a predefined admin group</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="11"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Create an entry in the </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>sudo</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> policy file</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRPr="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00722968">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve">2.2 Setting Up </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="00722968">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>sudo</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="00722968">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve"> for Users with Only Certain Delegated Privileges</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:r>
+                <w:t xml:space="preserve">A basic tenet of IT security philosophy is to give network users enough privileges so that they can get their jobs done, but no privileges beyond that. So, you'll want as few people as possible to have full </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>sudo</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> privileges. Let’s see how to do that!</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="12"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Create user </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>accounts.Open</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"></w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>visudo</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> and edit the file</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="12"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Login through different accounts and check for root-level privileges</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRPr="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00722968">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve">2.3 Advanced Tips and Tricks for </w:t>
+            </w:r>
+            <w:proofErr w:type="gramStart"/>
+            <w:r w:rsidRPr="00722968">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>Using</w:t>
+            </w:r>
+            <w:proofErr w:type="gramEnd"/>
+            <w:r w:rsidRPr="00722968">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve"></w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="00722968">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>sudo</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:r>
+                <w:t xml:space="preserve">Even though </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>sudo</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> is a security tool, certain things that you can do with it can make your system even more insecure than it was. Let's see how to avoid that.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="13"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Disable the </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>sudo</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> timer</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="13"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Prevent users from having root shell access</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="13"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Prevent users from using root shell escapes and other dangerous programs</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRPr="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00722968">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>2.4 Locking Down Users' Home Directories the Red Hat/</w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="00722968">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>CentOS</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="00722968">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve"> and </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="00722968">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>Debian</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="00722968">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>/Ubuntu Way</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:r>
+                <w:t>In this video, we will see how to lock down users home directories in the two important ways.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="14"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Check the </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>login.defs</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> file in </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>RedHat</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t>/</w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>CentOS</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="14"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Use </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>useradd</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> on </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>Debian</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t>/Ubuntu</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRPr="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00722968">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>2.5 Enforcing Strong Password Criteria</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:r>
+                <w:t>A strong password is essential for security purposes. We will look at password criteria in this video.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="15"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Understand what a strong password is</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="15"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Enter different passwords and check their strength</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968"/>
+        <w:p w:rsidR="00722968" w:rsidRPr="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00722968">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:lastRenderedPageBreak/>
+                <w:t>2.6 Setting and Enforcing Password and Account Expiration</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:r>
+                <w:t>Something you never want is to have unused user accounts remain active. In this video, we will learn how to set and enforce password and account expiration date.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="16"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Check and change the expiry data</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="16"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Configure default expiry data for </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>useradd</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="16"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Set expiry data on a per-account basis using </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>useradd</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve">, </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>usermod</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> and </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>chage</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRPr="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00722968">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>2.7 Preventing Brute-Force Password Attacks</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:r>
+                <w:t>We block the account which has failed log-in attempts. We need to decide how many attempts should be tolerated.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="17"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Configure the pam_tally2 PAM module</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="17"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Edit the </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>pam.d</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t>/login file</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="17"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Unlock a user account</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRPr="00300F49" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00300F49">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>2.8 Locking User Accounts</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00722968">
+            <w:r>
+                <w:t>You have seen how to have Linux automatically lock user accounts that are under attack. There will also be times when you'll want to be able to manually lock out user accounts.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00300F49">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="18"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Use </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>usermod</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> and </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>passwd</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> to lock the user account</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00722968" w:rsidRDefault="00722968" w:rsidP="00300F49">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="18"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Lock the root user account</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRPr="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00D77133">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>Section 3: Securing Your Server with a Firewall</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:r>
+                <w:t>This section involves working with the various types of firewall utilities.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="3"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">An Overview of </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>iptables</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="3"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Uncomplicated Firewall for Ubuntu Systems</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="3"/>
+                </w:numPr>
+            </w:pPr>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>firewalld</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> for Red Hat Systems</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="3"/>
+                </w:numPr>
+            </w:pPr>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>nftables</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> – A More Universal Type of Firewall System</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="003C0D79" w:rsidRPr="003C0D79" w:rsidRDefault="003C0D79" w:rsidP="003C0D79">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="003C0D79">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve">3.1 An Overview of </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="003C0D79">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>iptables</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="003C0D79" w:rsidRDefault="003C0D79" w:rsidP="003C0D79">
+            <w:r>
+                <w:t xml:space="preserve">In this video, we will learn all about </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>iptables</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t>.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="003C0D79" w:rsidRDefault="003C0D79" w:rsidP="003C0D79">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="19"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Look at advantages and disadvantages of </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>iptables</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="003C0D79" w:rsidRDefault="003C0D79" w:rsidP="003C0D79">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="19"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Understand the basic usage of </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>iptables</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="003C0D79" w:rsidRDefault="003C0D79" w:rsidP="003C0D79">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="19"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Create rules for </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>iptables</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="003C0D79" w:rsidRPr="003C0D79" w:rsidRDefault="003C0D79" w:rsidP="003C0D79">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="003C0D79">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>3.2 Uncomplicated Firewall for Ubuntu Systems</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="003C0D79" w:rsidRDefault="003C0D79" w:rsidP="003C0D79">
+            <w:r>
+                <w:t xml:space="preserve">The Uncomplicated Firewall is already installed on your Ubuntu machine. It still uses the </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>iptables</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> service, but it offers a vastly simplified set of commands.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="003C0D79" w:rsidRDefault="003C0D79" w:rsidP="003C0D79">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="20"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:lastRenderedPageBreak/>
+                <w:t xml:space="preserve">Understand basic usage of </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>ufw</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="003C0D79" w:rsidRDefault="003C0D79" w:rsidP="003C0D79">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="20"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Get rid of old </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>iptables</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> rules. Enable </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>ufw</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t>. Allow Secure Shell access</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="003C0D79" w:rsidRDefault="003C0D79" w:rsidP="003C0D79">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="20"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Open ports for TCP and UDP</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="003C0D79" w:rsidRPr="003C0D79" w:rsidRDefault="003C0D79" w:rsidP="003C0D79">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="003C0D79">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve">3.3 </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="003C0D79">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>firewalld</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="003C0D79">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve"> for Red Hat Systems</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="003C0D79" w:rsidRDefault="003C0D79" w:rsidP="003C0D79">
+            <w:proofErr w:type="spellStart"/>
+            <w:proofErr w:type="gramStart"/>
+            <w:r>
+                <w:t>firewalld</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:proofErr w:type="gramEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> is more advanced than </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>iptables</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve">. It is specific to </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>RedHat</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> systems.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="003C0D79" w:rsidRDefault="003C0D79" w:rsidP="003C0D79">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="21"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Verify the status of </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>firewalld</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="003C0D79" w:rsidRDefault="003C0D79" w:rsidP="003C0D79">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="21"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Learn about </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>firewalld</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> zones and services</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="003C0D79" w:rsidRDefault="003C0D79" w:rsidP="003C0D79">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="21"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Add ports to a </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>firewalld</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> zone. Look at </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>firewalld</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> rich language rules</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="003C0D79" w:rsidRPr="003C0D79" w:rsidRDefault="003C0D79" w:rsidP="003C0D79">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="003C0D79">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve">3.4 </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="003C0D79">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>nftables</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="003C0D79">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve"> – A More Universal Type of Firewall System</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="003C0D79" w:rsidRDefault="003C0D79" w:rsidP="003C0D79">
+            <w:proofErr w:type="spellStart"/>
+            <w:proofErr w:type="gramStart"/>
+            <w:r>
+                <w:t>nftables</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:proofErr w:type="gramEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> brings us a lot more than </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>iptables</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> and it is a more universal type of firewall. Let’s see how to work with it.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="003C0D79" w:rsidRDefault="003C0D79" w:rsidP="003C0D79">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="22"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Learn about </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>nftables</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> tables and chains</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="003C0D79" w:rsidRDefault="003C0D79" w:rsidP="003C0D79">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="22"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Get started with </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>nftables</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve">. Use </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>nft</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> commands</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="003C0D79" w:rsidRDefault="003C0D79" w:rsidP="003C0D79">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="22"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Perform a hands-on lab for </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>nftables</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="003C0D79" w:rsidRDefault="003C0D79" w:rsidP="00D77133">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRPr="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00D77133">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>Section 4: Encrypting and SSH Hardening</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:r>
+                <w:t>This section makes sure that important information – both at rest and in transit – are safeguarded with proper encryption. For data-in-transit, the default Secure Shell configuration is anything but secure, and could lead to a security breach if left as is. This section shows how to fix that.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="4"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>GNU Privacy Guard</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="4"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Encrypting Partitions with Linux Unified Key Setup – LUKS</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="4"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Encrypting Directories with </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>eCryptfs</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="4"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Using </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>VeraCrypt</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> for Cross-Platform Sharing of Encrypted Containers</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="4"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Ensuring that SSH Protocol 1 Is Disabled</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="4"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Creating a User’s SSH Key Set</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="4"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Disabling Username/Password Logins</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRPr="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="005B094E">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>4.1 GNU Privacy Guard</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:r>
+                <w:t>GPG is a free open source implementation. You can use it to either encrypt or cryptographically sign files or messages. In this video</w:t>
+            </w:r>
+            <w:proofErr w:type="gramStart"/>
+            <w:r>
+                <w:t>,,</w:t>
+            </w:r>
+            <w:proofErr w:type="gramEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> we'll focus strictly on GPG.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="23"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Create GPG keys</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="23"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Encrypt your files symmetrically</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="23"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Use private and public keys for asymmetric encryption</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRPr="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="005B094E">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:lastRenderedPageBreak/>
+                <w:t>4.2 Encrypting Partitions with Linux Unified Key Setup – LUKS</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:r>
+                <w:t>Being able to encrypt individual files can be handy, but it can be quite unwieldy for a large number of files. There are several methods to do that. LUKS is one of them.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="24"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Perform disk encryption</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="24"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Look at physical, logical and swap logical volumes</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRPr="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="005B094E">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve">4.3 Encrypting Directories with </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="005B094E">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>eCryptfs</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:r>
+                <w:t xml:space="preserve">Encrypting entire partitions is cool, but you might, at times, just need to encrypt an individual directory. For that, we can use </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>eCryptfs</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t>.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="25"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Encrypt a home directory for a new user account</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="25"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Encrypt other directories with </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>eCryptfs</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="25"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Encrypt the swap partition with </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>eCryptfs</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRPr="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="005B094E">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve">4.4 Using </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="005B094E">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>VeraCrypt</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="005B094E">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve"> for Cross-Platform Sharing of Encrypted Containers</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:r>
+                <w:t xml:space="preserve">Although LUKS and </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>eCryptfs</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> are good, </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>VeraCrypt</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> does offer more flexibility in certain ways. Let’s see how.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="26"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Create and mount a </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>VeraCrypt</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> volume in console mode</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRPr="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="005B094E">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>4.5 Ensuring that SSH Protocol 1 Is Disabled</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:r>
+                <w:t>A default configuration of SSH is actually quite insecure. So we need to disable it.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="26"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Check the </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>sshd_config</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> file and change if SSH protocol is enabled</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRPr="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="005B094E">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>4.6 Creating a User’s SSH Key Set</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:r>
+                <w:t xml:space="preserve">Each user has the ability to create his or </w:t>
+            </w:r>
+            <w:proofErr w:type="gramStart"/>
+            <w:r>
+                <w:t>her own</w:t>
+            </w:r>
+            <w:proofErr w:type="gramEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> set of private and public keys. It doesn't matter whether the user's client machine is running Linux, </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>MacOS</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t>, or Cygwin on Windows. In all three cases, the procedure is exactly the same.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="26"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Create keys on </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>OpenSUSE</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> workstation</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRPr="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="005B094E">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>4.7 Disabling Username/Password Logins</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:r>
+                <w:t>This is something that you'll only want to do after you've set up the key exchange with your clients. Otherwise, clients will be locked out of doing remote logins.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="26"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Open the </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>sshd_config</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> file</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="005B094E" w:rsidRDefault="005B094E" w:rsidP="005B094E">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="26"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Change the </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>PasswordAuthentication</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> parameter to no</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00C67047" w:rsidRDefault="00C67047" w:rsidP="00D77133">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRPr="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00D77133">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:lastRenderedPageBreak/>
+                <w:t>Section 5: Mastering Discretionary Access Control</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:r>
+                <w:t>This section covers how to set ownership and permissions on files and directories. We'll also cover what SUID and SGID can do for us, and the security implications of using them. We'll wrap things up by covering Extended File Attributes.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="5"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Changing Ownership of Files and Directories</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="5"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Setting Permissions Values</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="5"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Using SUID and SGID</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="5"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Protecting Sensitive Files</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00C67047" w:rsidRPr="00C67047" w:rsidRDefault="00C67047" w:rsidP="00C67047">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00C67047">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>5.1 Changing Ownership of Files and Directories</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00C67047" w:rsidRDefault="00C67047" w:rsidP="00C67047">
+            <w:r>
+                <w:t xml:space="preserve">In this video, we will be changing ownership of files and directories using </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>chown</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t>.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00C67047" w:rsidRDefault="00C67047" w:rsidP="00C67047">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="27"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Change both the user and group association</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00C67047" w:rsidRDefault="00C67047" w:rsidP="00C67047">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="27"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Change the group association without changing the user</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00C67047" w:rsidRDefault="00C67047" w:rsidP="00C67047">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="27"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Change the user without changing the group</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00C67047" w:rsidRPr="00C67047" w:rsidRDefault="00C67047" w:rsidP="00C67047">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00C67047">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>5.2 Setting Permissions Values</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00C67047" w:rsidRDefault="00C67047" w:rsidP="00C67047">
+            <w:r>
+                <w:t xml:space="preserve">In this video, we will be </w:t>
+            </w:r>
+            <w:proofErr w:type="gramStart"/>
+            <w:r>
+                <w:t>Setting</w:t>
+            </w:r>
+            <w:proofErr w:type="gramEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> permissions values on files and directories using </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>chmod</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t>.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00C67047" w:rsidRDefault="00C67047" w:rsidP="00C67047">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="28"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Set permissions with symbolic method</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00C67047" w:rsidRDefault="00C67047" w:rsidP="00C67047">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="28"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Set permissions with numerical method</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00C67047" w:rsidRPr="00C67047" w:rsidRDefault="00C67047" w:rsidP="00C67047">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00C67047">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>5.3 Using SUID and SGID</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00C67047" w:rsidRDefault="00C67047" w:rsidP="00C67047">
+            <w:r>
+                <w:t>In this video, we will be Using SUID and SGID on regular files.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00C67047" w:rsidRDefault="00C67047" w:rsidP="00C67047">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="29"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Modify the shadow file to change password</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00C67047" w:rsidRDefault="00C67047" w:rsidP="00C67047">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="29"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Find spurious SUID or SGID files</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00C67047" w:rsidRPr="00C67047" w:rsidRDefault="00C67047" w:rsidP="00C67047">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00C67047">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>5.4 Protecting Sensitive Files</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00C67047" w:rsidRDefault="00C67047" w:rsidP="00C67047">
+            <w:r>
+                <w:t>In this video, we will be using extended file attributes to protect sensitive files.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00C67047" w:rsidRDefault="00C67047" w:rsidP="00C67047">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="30"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Set the a attribute</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00C67047" w:rsidRDefault="00C67047" w:rsidP="00C67047">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="30"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Set the i attribute</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRPr="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00D77133">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>Section 6: Access Control Lists and Shared Directory Management</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:r>
+                <w:t>This section explains that normal Linux file and directory permissions settings aren't very granular. With Access Control Lists, we can allow only a certain person to access a file, or we can allow multiple people to access a file with different permissions for each person. We're also going to put what we've learned together in order to manage a shared directory for a group.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="6"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:lastRenderedPageBreak/>
+                <w:t>Creating an Access Control List</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="6"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Creating an Inherited Access Control List</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="6"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Removing a Specific Permission</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="6"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Preventing Loss of ACLs</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="6"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Creating a User Group and Adding Members to It</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="6"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Setting the SGID Bit and the Sticky Bit</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="6"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Accessing Files in the Shared Directory</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRPr="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00D25B7B">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00D25B7B">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>6.1 Creating an Access Control List</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00D25B7B">
+            <w:r>
+                <w:t>In this video, we will be creating an access control list for either a user or a group.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00D25B7B">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="31"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>See if we have any access control lists</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00D25B7B">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="31"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Remove all permissions from everyone except for the user of the file</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00D25B7B">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="31"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Set an ACL for group access</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRPr="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00D25B7B">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00D25B7B">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>6.2 Creating an Inherited Access Control List</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00D25B7B">
+            <w:r>
+                <w:t>In this video, we will be creating an inherited access control list for a directory.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00476BC6">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="32"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Create the directory and set the inherited ACL</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00476BC6">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="32"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Provide only read access to another user</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRPr="00476BC6" w:rsidRDefault="00D25B7B" w:rsidP="00D25B7B">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00476BC6">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>6.3 Removing a Specific Permission</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00D25B7B">
+            <w:r>
+                <w:t>In this video, we will be removing a specific permission by using an ACL mask.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00476BC6">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="33"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Remove the ACL for Maggie</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00476BC6">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="33"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Remove the write permission, while still allowing the read permission</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRPr="00476BC6" w:rsidRDefault="00D25B7B" w:rsidP="00D25B7B">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00476BC6">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>6.4 Preventing Loss of ACLs</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00D25B7B">
+            <w:r>
+                <w:t>In this video, we will be using the tar --</w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>acls</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> option to prevent the loss of ACLs during a backup.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="005B240A">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="34"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Create a backup of the directory without the --</w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>acls</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="005B240A">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="34"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Create a backup of the directory using the --</w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>acls</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRPr="00367F55" w:rsidRDefault="00D25B7B" w:rsidP="00D25B7B">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00367F55">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>6.5 Creating a User Group and Adding Members to It</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00D25B7B">
+            <w:r>
+                <w:t xml:space="preserve">In this video, we will be </w:t>
+            </w:r>
+            <w:proofErr w:type="gramStart"/>
+            <w:r>
+                <w:t>Creating</w:t>
+            </w:r>
+            <w:proofErr w:type="gramEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> a user group and adding members to it.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00367F55">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="35"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Create a marketing group for members</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00367F55">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="35"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Add some members in three ways</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00367F55">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="35"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Create a Shared directory</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00D25B7B"/>
+        <w:p w:rsidR="00D25B7B" w:rsidRPr="00367F55" w:rsidRDefault="00D25B7B" w:rsidP="00D25B7B">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00367F55">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:lastRenderedPageBreak/>
+                <w:t>6.6 Setting the SGID Bit and the Sticky Bit</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00D25B7B">
+            <w:r>
+                <w:t xml:space="preserve">In this video, we will be </w:t>
+            </w:r>
+            <w:proofErr w:type="gramStart"/>
+            <w:r>
+                <w:t>Setting</w:t>
+            </w:r>
+            <w:proofErr w:type="gramEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> the SGID bit and the sticky bit on the shared directory.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00367F55">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="36"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Set SGID on marketing directory</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00367F55">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="36"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Allow only members of the marketing department to access the directory</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRPr="00367F55" w:rsidRDefault="00D25B7B" w:rsidP="00D25B7B">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00367F55">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>6.7 Accessing Files in the Shared Directory</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00D25B7B">
+            <w:r>
+                <w:t>In this video, we will be Using ACLs to access files in the shared directory.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00367F55">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="37"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Set the permissions</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D25B7B" w:rsidRDefault="00D25B7B" w:rsidP="00367F55">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="37"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Create the ACL</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRPr="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:bookmarkStart w:id="0" w:name="_GoBack"/>
+            <w:bookmarkEnd w:id="0"/>
+            <w:r w:rsidRPr="00D77133">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve">Section 7: Implementing Mandatory Access Control with </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="00D77133">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>SELinux</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="00D77133">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve"> and </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="00D77133">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>AppArmor</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:r>
+                <w:t xml:space="preserve">Implementing Mandatory Access Control with </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>SELinux</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> and </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>AppArmor</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve">, talks about </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:proofErr w:type="gramStart"/>
+            <w:r>
+                <w:t>SELinux</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> ,</w:t>
+            </w:r>
+            <w:proofErr w:type="gramEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> which is a Mandatory Access Control technology that is included with Red </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>Hattype</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> Linux </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>distros</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve">. We'll give a brief introduction here about how to use </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>SELinux</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> to prevent intruders from compromising a system. </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>AppArmor</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> is another Mandatory Access Control technology that is included with Ubuntu and </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>Suse</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve">-type Linux </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>distros</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve">. We'll give a brief introduction here about how to use </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>AppArmor</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> to prevent intruders from compromising a system.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="7"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">How </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>SELinux</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> Can Benefit a Systems Administrator?</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="7"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Setting Security Contexts for Files and Directories</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="7"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Troubleshooting with </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>setroubleshoot</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="7"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Working with </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>SELinux</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> Policies</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="7"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Looking at </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>AppArmor</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> Profiles</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="7"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Working with </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>AppArmor</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> Command-Line Utilities</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRPr="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00B637DD">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve">7.1 How </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="00B637DD">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>SELinux</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="00B637DD">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve"> Can Benefit a Systems Administrator?</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:r>
+                <w:t xml:space="preserve">In this video, we are going to see why and how </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>SELinux</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> is important and how to use it to the best of our knowledge.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRPr="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00B637DD">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>7.2 Setting Security Contexts for Files and Directories</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:r>
+                <w:t xml:space="preserve">Think of </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>SELinux</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> as a glorified labeling system. It adds labels, known as security contexts, to files and directories through extended file attributes. We will be setting such security contexts in this video.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="38"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Install the </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>SELinux</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> tools</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="38"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Create </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>webcontent</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> files with </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>SELinux</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="38"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Fix an incorrect </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>SELinux</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> context</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRPr="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00B637DD">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve">7.3 Troubleshooting with </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="00B637DD">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>setroubleshoot</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:r>
+                <w:lastRenderedPageBreak/>
+                <w:t>In this video, we will trouble shoot in permissive mode then see how to switch from permissive mode to enforcing and vice versa.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="39"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Perform Troubleshooting in permissive mode</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="39"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Temporarily place the system into permissive mode</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="39"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Edit the </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>SELinux</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> file</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRPr="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00B637DD">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve">7.4 Working with </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="00B637DD">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>SELinux</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="00B637DD">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve"> Policies</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:r>
+                <w:t>In this video, we will view and configure the Booleans and protect web server and network ports.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="40"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>View and configure the Booleans</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="40"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Protect web server</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="40"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Protect network ports</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRPr="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00B637DD">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve">7.5 Looking at </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="00B637DD">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>AppArmor</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="00B637DD">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve"> Profiles</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:r>
+                <w:t xml:space="preserve">In this video, we will look at </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>apparmor</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> profiles and abstraction files.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="41"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>List the profiles</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="41"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Install app armor</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="41"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Peek inside the web-data abstraction file</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRPr="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00B637DD">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve">7.6 Working with </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="00B637DD">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>AppArmor</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="00B637DD">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve"> Command-Line Utilities</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:r>
+                <w:t xml:space="preserve">Whether or not you have all the </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>AppArmor</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> utilities you </w:t>
+            </w:r>
+            <w:proofErr w:type="gramStart"/>
+            <w:r>
+                <w:t>need will</w:t>
+            </w:r>
+            <w:proofErr w:type="gramEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> depend on which Linux </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>distro</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> you have. In this video, we will work with </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>AppArmor</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> command-line utilities.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="42"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Install </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>appArmor</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> utilities as per the system</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00B637DD" w:rsidRDefault="00B637DD" w:rsidP="00B637DD">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="42"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Look at the modes of </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>Apparmor</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRPr="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00D77133">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>Section 8: Scanning, Auditing, and Hardening</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:r>
+                <w:t xml:space="preserve">If your organization has Windows clients that access Linux fileservers, then this section is for you. You can use </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>auditd</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> to audit, which accesses </w:t>
+            </w:r>
+            <w:proofErr w:type="gramStart"/>
+            <w:r>
+                <w:t>either files</w:t>
+            </w:r>
+            <w:proofErr w:type="gramEnd"/>
+            <w:r>
+                <w:t xml:space="preserve">, directories, or system calls. It won't prevent security breaches, but it will let you know if some unauthorized person is trying to access a sensitive resource. SCAP, the Security Content Application Protocol, is a compliance framework that's promulgated by the National Institute of Standards and Technology. </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>OpenSCAP</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t>, the open source implementation, can be used to apply a hardening policy to a Linux computer.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="8"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Installing and Updating </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>ClamAV</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> and </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>maldet</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="8"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Scanning with </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>ClamAV</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> and </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>maldet</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="8"/>
+                </w:numPr>
+            </w:pPr>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>SELinux</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> Considerations</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="8"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Scanning for Rootkits with Rootkit Hunter</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="8"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Controlling the </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>auditd</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> Daemon and Creating Audit Rule</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="8"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Using </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>ausearch</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> and </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>aureport</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="00D77133" w:rsidRDefault="00D77133" w:rsidP="00D77133">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="8"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:lastRenderedPageBreak/>
+                <w:t xml:space="preserve">Scanning and Hardening with </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>Lynis</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRPr="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="000C245A">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve">8.1 Installing and Updating </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="000C245A">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>ClamAV</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="000C245A">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve"> and </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="000C245A">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>maldet</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:r>
+                <w:t xml:space="preserve">Although we don't have to worry much about viruses infecting our Linux machines, we do need to worry about sharing infected files with Windows users. In this video, we will be installing and updating </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>ClamAV</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> and </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>maldet</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t>.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="43"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Install </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>ClamAV</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="43"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Configure </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>maldet</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="43"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Prove that </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>maldet</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> is getting updated</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRPr="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="000C245A">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve">8.2 Scanning with </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="000C245A">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>ClamAV</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="000C245A">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve"> and </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="000C245A">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>maldet</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:r>
+                <w:t xml:space="preserve">In this video, we are going to introduce a simulated malware and then scan and detect it using </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>maldet</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t>.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="44"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Create a simulated malware file</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="44"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Scan it</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRPr="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="000C245A">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve">8.3 </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="000C245A">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>SELinux</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="000C245A">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve"> Considerations</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:r>
+                <w:t xml:space="preserve">In this video, we are going to look at the </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>SELinux</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> alerts from antivirus scans and solve it.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="45"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Change one Boolean</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="45"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Enable virus scans</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRPr="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="000C245A">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>8.4 Scanning for Rootkits with Rootkit Hunter</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:r>
+                <w:t>Rootkits are exceedingly nasty pieces of malware that can definitely ruin your day. So In this video, we will scan it using Rootkit Hunter.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="46"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Learn about rootkits</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="46"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Install rootkit hunter</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="46"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Scan for rootkits</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRPr="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="000C245A">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve">8.5 Controlling the </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="000C245A">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>auditd</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="000C245A">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve"> Daemon and Creating Audit Rule</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:r>
+                <w:t>So, you have a directory full of super-secret files that only a very few people need to see, and you want to know when unauthorized people try to see them. For all this you have the audited system.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="47"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Control the </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>auditd</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> daemon</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="47"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Audit a file for changes</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="47"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Audit a directory and audit system calls</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A"/>
+        <w:p w:rsidR="000C245A" w:rsidRPr="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="000C245A">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve">8.6 Using </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="000C245A">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>ausearch</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r w:rsidRPr="000C245A">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve"> and </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="000C245A">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>aureport</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:r>
+                <w:lastRenderedPageBreak/>
+                <w:t xml:space="preserve">The </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>ausearch</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> and </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>aureport</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> utilities will help you translate the file into a language that makes some sort of sense. In this video, we will use them.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="48"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Search for file change alerts, directory access rule violations, system call rule violations</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="48"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Generate authentication reports</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRPr="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="000C245A">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t xml:space="preserve">8.7 Scanning and Hardening with </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r w:rsidRPr="000C245A">
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+                <w:t>Lynis</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>Lynis</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> is yet another FOSS tool that you can use to scan your systems for vulnerabilities and bad security </w:t>
+            </w:r>
+            <w:proofErr w:type="gramStart"/>
+            <w:r>
+                <w:t>configurations</w:t>
+            </w:r>
+            <w:proofErr w:type="gramEnd"/>
+            <w:r>
+                <w:t xml:space="preserve">. In this video, we will be using the </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>Lynis</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+            <w:r>
+                <w:t xml:space="preserve"> scanning tool.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="49"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Understand the importance of </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>Lynis</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="49"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t xml:space="preserve">Install </w:t>
+            </w:r>
+            <w:proofErr w:type="spellStart"/>
+            <w:r>
+                <w:t>Lynis</w:t>
+            </w:r>
+            <w:proofErr w:type="spellEnd"/>
+        </w:p>
+        <w:p w:rsidR="000C245A" w:rsidRPr="00D77133" w:rsidRDefault="000C245A" w:rsidP="000C245A">
+            <w:pPr>
+                <w:pStyle w:val="ListParagraph"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="49"/>
+                </w:numPr>
+            </w:pPr>
+            <w:r>
+                <w:t>Use it to scan system</w:t>
+            </w:r>
+        </w:p>
+        <w:sectPr w:rsidR="000C245A" w:rsidRPr="00D77133">
+            <w:pgSz w:w="12240" w:h="15840"/>
+            <w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1440" w:header="720" w:footer="720" w:gutter="0"/>
+            <w:cols w:space="720"/>
+            <w:docGrid w:linePitch="360"/>
+        </w:sectPr>
+    </w:body>
+</w:document>

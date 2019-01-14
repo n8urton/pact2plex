@@ -2,6 +2,8 @@ import os
 import re
 import sys
 from docx import Document
+from pprint import pprint
+
 test_show_title = "Mastering Linux Security and Hardening"
 docx_in = "masteringlinuxsecurityandhardening.docx"
 text_data_in = "show_data.txt"
@@ -18,23 +20,45 @@ def open_docx(docx_in):
 
 
 def get_show_title(document):
-    '''returns the text from the first center formatted paragraph object in the docx file the key of "show_title"'''
-    for para in document.paragraphs: #iterates through paraghraphs
-        print(para.text)
-        try: 
-            if para.paragraph_format.alignment==1: # 
-                print(para.text)
-                data= {"show_title" : para.text}
-                print("Setting Show Title to: {0}".format(data["show_title"]))
-                return data
-            else:
-                print("No show title found")
-        except TypeError:
-            sys.exit(f"Error reading Show Title from {docx_in}. Show \
-Title should be the first CENTER FORMATTED line in the document")
+    '''returns the text from the first center formatted paragraph object in 
+the docx file the key of "show_title"'''
+    for para in document.paragraphs:
+        if para.paragraph_format.alignment==1:
+            data= {"show_title" : para.text}
+            print("Setting Show Title to: {0}".format(data["show_title"]))
+            return data
+        else:
+            print("No show title found")
 
 
-#def get_season_titles(document):
+def get_season_titles(document):
+    '''returns an array of key value pairs with keys "title": <text
+from each paragraph object starting with the string "Section">''' 
+    season_count=0
+    season_data = []
+    for para in document.paragraphs:
+        if para.text.startswith("Section"):
+            season_title = {"title" : (para.text.split(":")[1]).strip()}
+            #season_title = {"title" : season_title.strip()}
+            season_data.append(season_title)
+            season_count += 1
+        #elif para.text.startswith(str(season_count)):
+        #    season_data[season_count].update(para.text)
+    return season_data
+
+
+def get_episode_titles(document, season_num):
+    '''returns array of dicts containing "new_name" : <text from each paragaph
+object starting with the number of specified season>'''
+    season_data = []
+    for para in document.paragraphs:
+        if para.text.startswith(str(season_num)):
+            episode_title = {"new_name" : (para.text.split(" ", 1)[1]).strip()}
+            season_data.append(episode_title)
+    
+    return season_data
+
+
 
 
 
@@ -45,15 +69,18 @@ document = open_docx(docx_in) #open docx file
 #    print(str(type(item)) + " . . . " + item)
 #print(f"data is: \n{}")
 show_data.update(get_show_title(document))
-if test_show_title == show_data["show_title"]:
-    print("correct title")
-else:
-    print("try again")
+show_data.update({"seasons" : get_season_titles(document)})
+for season, titles in enumerate(show_data["seasons"]):
+    show_data["seasons"][season].update({"episode" : \
+get_episode_titles(document, season+1)})
 
 
+
+pprint(show_data)
+"""
 old_filenames = []
 new_filenames = {}
-"""
+
 for i in range(8):
     old_filenames.append([])
     for filename in os.listdir("."):

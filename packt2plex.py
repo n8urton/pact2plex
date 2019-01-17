@@ -2,12 +2,12 @@ import os
 import sys
 from docx import Document
 from pprint import pprint
+import json
+import time
 
 
 def main():    
-    test_show_title = "Mastering Linux Security and Hardening"
-    docx_in = "masteringlinuxsecurityandhardening.docx"
-    text_data_in = "show_data.txt"
+    docx_in = 'masteringlinuxsecurityandhardening.docx'
     show_data = {}
 
     document = open_docx(docx_in)
@@ -21,17 +21,17 @@ def main():
         filenames = get_file_names(season+1)
         episode_data_merge = merge(filenames, episode_titles, show_data["show_title"], season + 1)
         current_season.update({"episode":episode_data_merge})
-
+    save_show_data(show_data)
     pprint(show_data)
 
 
 def open_docx(docx_in):
     try:
         document = Document(docx_in)
-        print(f"Opening {docx_in}")
+        print(f'Opening {docx_in}')
         return document
     except Exception as err:
-        sys.exit(f"Error loading docx file: {err}" )
+        sys.exit(f'Error loading docx file: {err}')
 
 
 
@@ -41,10 +41,10 @@ the docx file the key of "show_title"'''
     for para in document.paragraphs:
         if para.paragraph_format.alignment==1:
             data= {"show_title" : para.text}
-            print("Setting Show Title to: {0}".format(data["show_title"]))
+            print('Setting Show Title to: {0}'.format(data["show_title"]))
             return data
         else:
-            print("No show title found")
+            print('No show title found')
 
 
 def get_season_titles(document):
@@ -94,8 +94,17 @@ def merge(filenames, episode_titles, sh_title, seas_num):
             merge_data[enum].update({"new_name" : new_filename})
         return merge_data
     else:
-        sys.exit("Error matching filenames to episodes")
+        sys.exit('Error matching filenames to episodes')
 
+
+def save_show_data(show_data):
+    '''exports show_data to <show_title><timestamp>.json file'''
+    timestr = time.strftime("%Y%m%d-%H%M%S")
+    title_4_file = show_data["show_title"].replace(" ", "_")
+    file_out = f'{title_4_file}{timestr}.json'
+    with open(file_out, 'w') as fout:
+        json.dump(show_data, fout)
+    
 
 if __name__ == "__main__":
     main()

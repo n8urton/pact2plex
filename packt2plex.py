@@ -1,14 +1,29 @@
 import os
-import re
 import sys
 from docx import Document
 from pprint import pprint
 
 
-test_show_title = "Mastering Linux Security and Hardening"
-docx_in = "masteringlinuxsecurityandhardening.docx"
-text_data_in = "show_data.txt"
-show_data = {}
+def main():    
+    test_show_title = "Mastering Linux Security and Hardening"
+    docx_in = "masteringlinuxsecurityandhardening.docx"
+    text_data_in = "show_data.txt"
+    show_data = {}
+
+    document = open_docx(docx_in)
+
+    show_data.update(get_show_title(document))
+    show_data.update({"seasons" : get_season_titles(document)})
+
+    for season, titles in enumerate(show_data["seasons"]):
+        current_season = show_data["seasons"][season]
+        episode_titles = get_episode_titles(document, season+1)
+        filenames = get_file_names(season+1)
+        episode_data_merge = merge(filenames, episode_titles, show_data["show_title"], season + 1)
+        current_season.update({"episode":episode_data_merge})
+
+    pprint(show_data)
+
 
 def open_docx(docx_in):
     try:
@@ -54,7 +69,7 @@ object starting with the number of specified season>'''
             episode_title = {"new_name" : (para.text.split(" ", 1)[1]).strip()}
             episode_data.append(episode_title)
     return episode_data
-
+    
 
 def get_file_names(season):
     file_data = []
@@ -65,29 +80,22 @@ def get_file_names(season):
     return file_data
 
 
-def merge(filenames, episode_titles):
+def merge(filenames, episode_titles, sh_title, seas_num):
     '''merges two arrays of key value pairs into one array with 2 key value pairs per index'''
     if len(filenames) == len(episode_titles):
         merge_data = []
         for enum, file_data in enumerate(filenames):
-            episodes = episode_titles[enum]
-            title_data = ({key:episodes[key] for key in episodes})
-            merge_data.append(title_data)
-            merge_data[enum].update(file_data)
+            episode = episode_titles[enum]
+            ep_num = enum +1 
+            ep_name = str(episode["new_name"])
+            new_filename = f"{sh_title} - s{seas_num:02}e{ep_num:02} - {ep_name}"
+            title_data = ({key:episode[key] for key in episode})
+            merge_data.append(file_data)
+            merge_data[enum].update({"new_name" : new_filename})
         return merge_data
     else:
         sys.exit("Error matching filenames to episodes")
 
-document = open_docx(docx_in)
 
-show_data.update(get_show_title(document))
-show_data.update({"seasons" : get_season_titles(document)})
-
-for season, titles in enumerate(show_data["seasons"]):
-    current_season = show_data["seasons"][season]
-    episode_titles = get_episode_titles(document, season+1)
-    filenames = get_file_names(season+1)
-    episode_data_merge = merge(filenames, episode_titles)
-    current_season.update({"episode":episode_data_merge})
-
-pprint(show_data)
+if __name__ == "__main__":
+    main()
